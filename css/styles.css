@@ -1,0 +1,81 @@
+/* 
+    Document   : styles
+    Created on : Jul 6, 2011, 7:10:10 AM
+    Author     : Alberto Miranda <alberto.php@gmail.com>
+*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
+body{
+    font:normal normal normal 12px arial black;
+    background:black;
+}
+
+h1{
+    font:normal normal normal 30px Quicksand;
+    color:#eee;
+    margin:0;
+}
+
+h3{
+    font:normal normal normal 18px Quicksand;
+    color:#bbb;
+    margin:0 0 10px 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+a{
+    color:black;
+    background:coral;
+    padding:2px;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#ccc;
+    background:black;
+}
+
+#menu{
+    font:normal normal normal 16px courier;
+}
+
+#shell{
+    height:400px;
+    overflow:auto;
+    padding:20px;
+}
+
+#shell, #shellInputContainer, #shellInput {
+    background:black;
+    color:chartreuse;
+    width:980px;
+    font:normal normal normal 12px monospace;
+    border:0;
+}
+
+#shellInputContainer span{
+    padding:0 0 0 20px;
+}
+
+#shellInput{
+    padding:4px;
+    display:inline;
+    width:860px;
+}
+
+#header{
+    background:chocolate;
+    padding:20px 20px 2px 20px;
+}
+
+.active{
+    background:black;
+    color:yellow;
+}
+
+#loading{
+    float:right;
+}
